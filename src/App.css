@@ -1,0 +1,115 @@
+.container{
+display: flex;
+flex-direction: column;
+background-color: #FCF0F3;
+
+  
+  }
+  
+  .cabecalho{
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FCF0F3;
+  }
+  
+  .cabecalho img{
+    margin-top: 10px;
+    height: 150px;
+  }
+  
+  .cabecalho p{
+
+    margin-top: 0px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .barrapesquisa{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DF81CD;
+    margin-bottom: 20px;
+  }
+  
+  .barrapesquisa input{
+    margin-top: 20px;
+    border-color: black;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+  }
+
+  .barrapesquisa p{
+    margin-top: 5px;
+
+  }
+  
+.numeroodas{
+
+  margin-left: 50%;
+
+}
+
+
+
+  .posts{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 500px));
+    gap: 20px;
+    background-color: #FCF0F3;
+    justify-content: center;
+  }
+  
+  .odas{
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #F2E4F1;
+  }
+  
+    .odas p{
+      text-align: center;
+      max-width: 470px;
+      margin-left: 10px;
+    }   
+
+  .rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: #FCF0F3;
+
+  }
+  
+  .rodape img{
+    position: absolute;
+    right: 10px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  
+  .nomealunos{
+    position: absolute;
+    left: 10px;
+  }
+  
+  .rodape h1{
+    font-size: 40px;
+    text-align: justify;
+    font-style: italic;
+  }
+  
